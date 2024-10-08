@@ -13,7 +13,7 @@ class ProfileScreen extends StatelessWidget {
           children: [
             CircleAvatar(
               radius: 90,
-              backgroundImage: AssetImage('assets/bernat.png'),
+              backgroundImage: AssetImage('assets/images/bernat.png'),
             ),
             SizedBox(height: 12),
             Text(

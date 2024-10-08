@@ -16,32 +16,32 @@ class GalleryScreen extends StatelessWidget {
             Cards(
               title: 'Card 1',
               description: 'Description of Card 1.',
-              imagePath: 'assets/cat.png',
+              imagePath: 'assets/images/cat.png',
             ),
             Cards(
               title: 'Card 2',
               description: 'Description of Card 2.',
-              imagePath: 'assets/cat.png',
+              imagePath: 'assets/images/cat.png',
             ),
             Cards(
               title: 'Card 3',
               description: 'Description of Card 3.',
-              imagePath: 'assets/cat.png',
+              imagePath: 'assets/images/cat.png',
             ),
             Cards(
               title: 'Card 4',
               description: 'Description of Card 4.',
-              imagePath: 'assets/cat.png',
+              imagePath: 'assets/images/cat.png',
             ),
             Cards(
               title: 'Card 5',
               description: 'Description of Card 5.',
-              imagePath: 'assets/cat.png',
+              imagePath: 'assets/images/cat.png',
             ),
             Cards(
               title: 'Card 6',
               description: 'Description of Card 6.',
-              imagePath: 'assets/cat.png',
+              imagePath: 'assets/images/cat.png',
             ),
           ],
         ),
