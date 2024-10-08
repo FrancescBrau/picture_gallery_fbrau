@@ -8,7 +8,11 @@ class GalleryScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Gallery'),
+        title: const Text(
+          'Gallery',
+          style: TextStyle(color: Color.fromARGB(179, 55, 52, 52)),
+        ),
+        backgroundColor: Color.fromARGB(255, 204, 177, 160),
       ),
       body: Padding(
         padding: const EdgeInsets.all(8.0),

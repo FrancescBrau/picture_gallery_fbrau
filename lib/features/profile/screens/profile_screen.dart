@@ -26,7 +26,7 @@ class ProfileScreen extends StatelessWidget {
             SizedBox(height: 12),
             Text(
               'State Official',
-              style: TextStyle(fontSize: 16),
+              style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
             ),
             SizedBox(height: 12),
             Text(
@@ -34,7 +34,7 @@ class ProfileScreen extends StatelessWidget {
               textAlign: TextAlign.center,
               style: TextStyle(
                 fontSize: 16,
-                color: Colors.grey,
+                color: Color.fromARGB(255, 60, 59, 59),
               ),
             ),
           ],
