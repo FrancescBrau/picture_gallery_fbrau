@@ -18,12 +18,8 @@ dev_dependencies:
 flutter:
   uses-material-design: true
   assets:
-    - assets/images/bernat.png
-    - assets/images/cat.png
-    - assets/images/aiguestortes.png
-    - assets/images/deltaebre.png
-    - assets/images/montserrat.png
-    assets/images/
+    - assets/images/
+
   fonts:
     - family: LibreBaskerville
       fonts:

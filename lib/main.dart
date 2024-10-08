@@ -42,7 +42,7 @@ class _MainScreenState extends State<MainScreen> {
     return Scaffold(
       appBar: AppBar(
         title: const Text('Visit Catalonia'),
-        backgroundColor: const Color.fromARGB(0, 155, 205, 236),
+        backgroundColor: const Color.fromARGB(0, 93, 169, 216),
       ),
       body: screensApp[currentIndex],
       bottomNavigationBar: NavigationBar(
