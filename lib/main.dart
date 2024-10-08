@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'features/screens/gallery_screen.dart';
-import 'features/screens/profile_screen.dart';
+import 'features/gallery/screens/gallery_screen.dart';
+import 'features/profile/screens/profile_screen.dart';
 
 void main() {
   runApp(const CataloniaGalleryApp());
