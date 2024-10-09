@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:picture_gallery_fbrau/features/gallery/Cards/cards.dart';
+import 'package:picture_gallery_fbrau/features/gallery/widgets/cards.dart';
 
 class GalleryScreen extends StatelessWidget {
   const GalleryScreen({super.key});
@@ -12,7 +12,7 @@ class GalleryScreen extends StatelessWidget {
           'Gallery',
           style: TextStyle(color: Color.fromARGB(179, 55, 52, 52)),
         ),
-        backgroundColor: Color.fromARGB(255, 204, 177, 160),
+        backgroundColor: const Color.fromARGB(255, 204, 177, 160),
       ),
       body: Padding(
         padding: const EdgeInsets.all(8.0),

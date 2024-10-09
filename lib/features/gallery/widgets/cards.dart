@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:picture_gallery_fbrau/features/gallery/Cards/cards_details.dart';
+import 'package:picture_gallery_fbrau/features/gallery/widgets/cards_details.dart';
 
 class Cards extends StatelessWidget {
   final String title;

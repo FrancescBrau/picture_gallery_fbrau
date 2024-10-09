@@ -50,7 +50,7 @@ class _MainScreenState extends State<MainScreen> {
       body: screensApp[currentIndex],
       bottomNavigationBar: NavigationBar(
         selectedIndex: currentIndex,
-        backgroundColor: Color.fromARGB(255, 230, 221, 215),
+        backgroundColor: const Color.fromARGB(255, 230, 221, 215),
         onDestinationSelected: (int index) {
           setState(() {
             currentIndex = index;
