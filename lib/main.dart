@@ -3,11 +3,11 @@ import 'features/gallery/screens/gallery_screen.dart';
 import 'features/profile/screens/profile_screen.dart';
 
 void main() {
-  runApp(const CataloniaGalleryApp());
+  runApp(const KayaGalleryApp());
 }
 
-class CataloniaGalleryApp extends StatelessWidget {
-  const CataloniaGalleryApp({super.key});
+class KayaGalleryApp extends StatelessWidget {
+  const KayaGalleryApp({super.key});
 
   @override
   Widget build(BuildContext context) {
