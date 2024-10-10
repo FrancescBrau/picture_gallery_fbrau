@@ -12,7 +12,7 @@ class CataloniaGalleryApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Catalonia Gallery App',
+      title: 'Gallery App',
       theme: ThemeData(
         fontFamily: 'LibreBaskerville',
         scaffoldBackgroundColor: const Color.fromARGB(255, 228, 228, 228),
@@ -42,7 +42,7 @@ class _MainScreenState extends State<MainScreen> {
     return Scaffold(
       appBar: AppBar(
         title: const Text(
-          'Visit Catalonia',
+          'MyGallery',
           style: TextStyle(color: Colors.white70),
         ),
         backgroundColor: const Color.fromARGB(255, 43, 26, 15),

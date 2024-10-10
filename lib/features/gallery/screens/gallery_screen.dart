@@ -27,46 +27,46 @@ class GalleryScreen extends StatelessWidget {
           itemBuilder: (context, index) {
             final cardsData = [
               {
-                'title': 'Barcelona',
-                'imagePath': 'assets/images/safa.png',
+                'title': 'Bunter Basketball',
+                'imagePath': 'assets/images/basketball_1.jpeg',
                 'description':
-                    "Barcelona is known for its art and architecture. Overlooking the Mediterranean Sea, and famous for Gaudí and other Art Nouveau architecture, Barcelona is one of Europe's trendiest cities. It's a hub of new trends in the world of culture, fashion and cuisine. It combines the creativity of its artists and designers with respect and care for local traditions.",
+                    "Ein Basketballplatz ist ein rechteckiger Bereich, der zum Basketballspielen entworfen wurde. Er hat Standardmaße von 28 Metern Länge und 15 Metern Breite. An den beiden Enden befinden sich Körbe in einer Höhe von 3,05 Metern. Der Boden besteht in der Regel aus Holz und ist mit Linien markiert, die wichtige Zonen abgrenzen, wie die Drei-Punkte-Linie und die Freiwurflinie.",
               },
               {
-                'title': 'Montserrat',
-                'imagePath': 'assets/images/montserrat.png',
+                'title': 'Andrenalin pur!',
+                'imagePath': 'assets/images/ski.jpeg',
                 'description':
-                    "The basilica itself, the atrium, the chapels within the basilica and the Black Madonna (see above) are all of interest from an architectural, spiritual and historical perspective. The basilica at Montserrat is also the place where you will be able to attend masses and watch the Montserrat choir.",
+                    "Skifahren ist ein Sport, der auf Schnee, meist in den Bergen, ausgeübt wird. Die Skifahrer fahren Hänge hinunter, indem sie lange, schmale Skier verwenden, die an ihren Stiefeln befestigt sind. Sie benutzen auch Stöcke, um das Gleichgewicht zu halten und ihre Bewegungen zu steuern. Die Skipisten sind vorbereitet und abgegrenzt, um die Sicherheit der Skifahrer zu gewährleisten.",
               },
               {
-                'title': 'Costa Brava',
-                'imagePath': 'assets/images/costabrava.png',
+                'title': 'Achtung Kurve',
+                'imagePath': 'assets/images/bike.jpeg',
                 'description':
-                    "Costa Brava is a paradise for water enthusiasts, hiking and cycling lovers, and travellers looking to indulge in outstanding cuisine and culture. So, whether you're looking for an action-packed adventure or a more relaxed trip, the Costa Brava has something for you!",
+                    "Dieser Sport erfordert Ausdauer, Kraft und technisches Können, um verschiedene Terrains und Wetterbedingungen zu bewältigen. Es gibt verschiedene Disziplinen wie Straßenrennen, Mountainbiking und Bahnradfahren. Besonders bei Straßenrennen spielen Taktik und Teamarbeit eine große Rolle, während Mountainbiking eine größere technische Präzision und Körperbeherrschung erfordert.",
               },
               {
-                'title': 'Peratallada',
-                'imagePath': 'assets/images/peratallada.png',
+                'title': 'Runners High',
+                'imagePath': 'assets/images/running.jpeg',
                 'description':
                     "In the middle of the heart of Empordà and just a few kilometres from the best coves and beaches of the Costa Brava, the village of Peratallada is located in the province of Girona, halfway between Barcelona and the French border.",
               },
               {
-                'title': 'Aigüestortes',
-                'imagePath': 'assets/images/aiguestortes.png',
+                'title': 'Swish',
+                'imagePath': 'assets/images/basketball_2.jpeg',
                 'description':
-                    "The high-mountain landscape has an impressive relief and a rich variety of fauna and vegetation: fir and mountain pine forests, screes and alpine meadows, peaks over 3000m high, and fauna including chamois, marmots, wood grouse, and bearded vultures.",
+                    "Laufen, auch Running genannt, ist eine einfache und beliebte Sportart, bei der man auf verschiedenen Strecken und Terrains läuft. Es erfordert wenig Ausrüstung – meist nur geeignete Laufschuhe – und kann sowohl drinnen auf Laufbändern als auch draußen in der Natur oder auf Straßen ausgeübt werden. ",
               },
               {
-                'title': "Penedès",
-                'imagePath': 'assets/images/penedes.png',
+                'title': "Ball Game",
+                'imagePath': 'assets/images/tennis_1.jpeg',
                 'description':
-                    "A walk through the taste between nature, history and the stoves of our region. Pamper the palate with a sample of the best foods and broths of the Gran Penedés in a traditional environment and cooking together with a renowned cheff of the know-how of our territory.",
+                    "Basketball ist ein schneller und dynamischer Sport, der auf einem rechteckigen Spielfeld gespielt wird. Zwei Teams mit jeweils fünf Spielern versuchen, den Ball in den Korb des Gegners zu werfen, um Punkte zu erzielen.",
               },
               {
-                'title': "Delta de l'Ebre",
-                'imagePath': 'assets/images/deltaebre.png',
+                'title': "Encara Messi",
+                'imagePath': 'assets/images/soccer.jpeg',
                 'description':
-                    "El Delta de l'Ebre, with a surface area of 123 square miles, plays host to the largest aquatic habitat in Catalonia, as well as a rich variety of atmospheres distinguished by the convergence of marine and mainland environments.",
+                    "Fußball ist in Deutschland eine der beliebtesten Sportarten. Jedes Wochenende versammeln sich Millionen von Fans in den Stadien, um ihre Lieblingsmannschaften anzufeuern. Die Bundesliga, die höchste Fußballliga des Landes, ist bekannt für ihre spannenden Spiele und talentierten Spieler. Die deutschen Nationalmannschaft hat in der Vergangenheit große Erfolge gefeiert, darunter den Gewinn der FIFA-Weltmeisterschaft viermal (1954, 1974, 1990, 2014). Die leidenschaftlichen Fans und die beeindruckende Atmosphäre in den Stadien machen Fußball in Deutschland zu einem einzigartigen Erlebnis.",
               },
             ];
 
