@@ -1,15 +1,17 @@
 import 'package:flutter/material.dart';
-import 'package:picture_gallery_fbrau/features/gallery/widgets/cards_details.dart';
+import 'package:picture_gallery_fbrau/features/widgets/cards_details.dart';
 
 class Cards extends StatelessWidget {
   final String title;
   final String imagePath;
+  final String datum;
   final String description;
 
   const Cards({
     super.key,
     required this.title,
     required this.imagePath,
+    required this.datum,
     required this.description,
   });
 
@@ -23,6 +25,7 @@ class Cards extends StatelessWidget {
             builder: (context) => CardDetails(
               title: title,
               imagePath: imagePath,
+              datum: datum,
               description: description,
             ),
           ),

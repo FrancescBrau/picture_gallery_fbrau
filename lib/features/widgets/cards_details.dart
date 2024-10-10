@@ -3,12 +3,14 @@ import 'package:flutter/material.dart';
 class CardDetails extends StatelessWidget {
   final String title;
   final String imagePath;
+  final String datum;
   final String description;
 
   const CardDetails({
     super.key,
     required this.title,
     required this.imagePath,
+    required this.datum,
     required this.description,
   });
 
